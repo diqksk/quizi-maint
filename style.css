@@ -13,7 +13,7 @@
   text-align: center;
 }
 .title-msg {
-  font-size: 4em;
+  font-size: 3em;
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
@@ -23,6 +23,9 @@
   text-align: center;
   color: white;
   font-weight: bold;
+}
+.maint-image {
+  width: 400px;
 }
 @media screen and (max-width: 768px) {
   .maint-image {
