@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.background-container {
+  background-image: url("./background.png");
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  text-align: center;
+}
+.title-msg {
+  font-size: 4em;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.footer-container {
+  display: fixed;
+  height: 10vh;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .maint-image {
+    width: 70%;
+  }
+  .title-msg {
+    font-size: 1.6em;
+    margin-bottom: 20%;
+  }
+}
